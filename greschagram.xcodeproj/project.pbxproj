@@ -118,7 +118,7 @@
 		2744018526E6344E0035C55D /* WidgetRecentPeersController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2744018426E6344D0035C55D /* WidgetRecentPeersController.swift */; };
 		2744AE6D25B44E1500E8849F /* ExportedInvitationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2744AE6C25B44E1500E8849F /* ExportedInvitationController.swift */; };
 		2744AE7225B58E6C00E8849F /* invitations.tgs in Resources */ = {isa = PBXBuildFile; fileRef = 2744AE7125B58E6C00E8849F /* invitations.tgs */; };
-		2745FEC9274F943E00546B05 /* TelegramShare.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C232EA911E1D07E700C4D38C /* TelegramShare.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2745FEC9274F943E00546B05 /* greschagramShare.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = C232EA911E1D07E700C4D38C /* greschagramShare.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		2745FECB274F947000546B05 /* BuildConfig in Frameworks */ = {isa = PBXBuildFile; productRef = 2745FECA274F947000546B05 /* BuildConfig */; };
 		2745FECD274F948600546B05 /* NumberPluralization in Frameworks */ = {isa = PBXBuildFile; productRef = 2745FECC274F948600546B05 /* NumberPluralization */; };
 		2745FECF274F94F200546B05 /* GZIP in Frameworks */ = {isa = PBXBuildFile; productRef = 2745FECE274F94F200546B05 /* GZIP */; };
@@ -497,10 +497,7 @@
 		27D43DB927918F2C006968A6 /* Mozjpeg in Frameworks */ = {isa = PBXBuildFile; productRef = 27D43DB827918F2C006968A6 /* Mozjpeg */; };
 		27D43DC3279191A5006968A6 /* OpenSSLEncryption in Frameworks */ = {isa = PBXBuildFile; productRef = 27D43DC2279191A5006968A6 /* OpenSSLEncryption */; };
 		27D43DC5279191B0006968A6 /* OpenSSLEncryption in Frameworks */ = {isa = PBXBuildFile; productRef = 27D43DC4279191B0006968A6 /* OpenSSLEncryption */; };
-		27D43DCA279191F7006968A6 /* libjpeg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 27D43DAD27917735006968A6 /* libjpeg.a */; };
-		27D43DCB279191F9006968A6 /* libjpeg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 27D43DAD27917735006968A6 /* libjpeg.a */; };
 		27D43DCC279191FD006968A6 /* libjpeg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 27D43DAD27917735006968A6 /* libjpeg.a */; };
-		27D43DCD27919202006968A6 /* libjpeg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 27D43DAD27917735006968A6 /* libjpeg.a */; };
 		27D43DCE27919229006968A6 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 27D43DB12791774A006968A6 /* libcrypto.a */; };
 		27D43DCF27919229006968A6 /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 27D43DAF27917747006968A6 /* libssl.a */; };
 		27D4F6DF261B776200CCAE03 /* Notices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D4F6DE261B776200CCAE03 /* Notices.swift */; };
@@ -1324,15 +1321,15 @@
 			name = "Copy Files";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C232EA661E1D041B00C4D38C /* Embed App Extensions */ = {
+		C232EA661E1D041B00C4D38C /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 12;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				2745FEC9274F943E00546B05 /* TelegramShare.appex in Embed App Extensions */,
+				2745FEC9274F943E00546B05 /* greschagramShare.appex in Embed Foundation Extensions */,
 			);
-			name = "Embed App Extensions";
+			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		C232EAA91E1D080100C4D38C /* CopyFiles */ = {
@@ -2242,7 +2239,7 @@
 		C232EA0F1E156DE100C4D38C /* ContextCommandRowItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContextCommandRowItem.swift; sourceTree = "<group>"; };
 		C232EA121E16552900C4D38C /* WebGameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebGameViewController.swift; sourceTree = "<group>"; };
 		C232EA3C1E1C06EF00C4D38C /* dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dsa_pub.pem; sourceTree = "<group>"; };
-		C232EA911E1D07E700C4D38C /* TelegramShare.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TelegramShare.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		C232EA911E1D07E700C4D38C /* greschagramShare.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = greschagramShare.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		C232EA941E1D07E700C4D38C /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
 		C232EA961E1D07E700C4D38C /* TelegramShare.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TelegramShare.entitlements; sourceTree = "<group>"; };
 		C232EA971E1D07E700C4D38C /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
@@ -2596,7 +2593,7 @@
 		D093474D242DCFC4000ECA88 /* PeerMediaGroupPeersController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeerMediaGroupPeersController.swift; sourceTree = "<group>"; };
 		D0983E162568373E00467703 /* AppCenterAnalytics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AppCenterAnalytics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0983E182568373E00467703 /* AppCenterCrashes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AppCenterCrashes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D098C7151D7E175A007784E4 /* Telegram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Telegram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D098C7151D7E175A007784E4 /* greschagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = greschagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D098C7181D7E175A007784E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D098C71A1D7E175A007784E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D098C71F1D7E175A007784E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -2674,12 +2671,9 @@
 				27D43DB927918F2C006968A6 /* Mozjpeg in Frameworks */,
 				27D43DCE27919229006968A6 /* libcrypto.a in Frameworks */,
 				2745FECB274F947000546B05 /* BuildConfig in Frameworks */,
-				27D43DCB279191F9006968A6 /* libjpeg.a in Frameworks */,
-				27D43DCD27919202006968A6 /* libjpeg.a in Frameworks */,
 				2745FECF274F94F200546B05 /* GZIP in Frameworks */,
 				278926C527550C8200923087 /* FoundationUtils in Frameworks */,
 				278926C327550BB200923087 /* ColorPalette in Frameworks */,
-				27D43DCA279191F7006968A6 /* libjpeg.a in Frameworks */,
 				2745FED5274F952600546B05 /* Localization in Frameworks */,
 				277C209527A2F5940070B3BF /* ManagedFile in Frameworks */,
 				2745FED1274F950100546B05 /* Svg in Frameworks */,
@@ -5506,8 +5500,8 @@
 		D098C7161D7E175A007784E4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D098C7151D7E175A007784E4 /* Telegram.app */,
-				C232EA911E1D07E700C4D38C /* TelegramShare.appex */,
+				D098C7151D7E175A007784E4 /* greschagram.app */,
+				C232EA911E1D07E700C4D38C /* greschagramShare.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -5682,9 +5676,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C232EA901E1D07E700C4D38C /* TelegramShare */ = {
+		C232EA901E1D07E700C4D38C /* greschagramShare */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C232EAA01E1D07E700C4D38C /* Build configuration list for PBXNativeTarget "TelegramShare" */;
+			buildConfigurationList = C232EAA01E1D07E700C4D38C /* Build configuration list for PBXNativeTarget "greschagramShare" */;
 			buildPhases = (
 				C232EA8D1E1D07E700C4D38C /* Sources */,
 				C232EA8E1E1D07E700C4D38C /* Frameworks */,
@@ -5696,7 +5690,7 @@
 			);
 			dependencies = (
 			);
-			name = TelegramShare;
+			name = greschagramShare;
 			packageProductDependencies = (
 				27F3B75527391E9200B81F10 /* TelegramIconsTheme */,
 				27F3B75B2739320000B81F10 /* SwiftSignalKit */,
@@ -5722,18 +5716,18 @@
 				277C209427A2F5940070B3BF /* ManagedFile */,
 			);
 			productName = TelegramShare;
-			productReference = C232EA911E1D07E700C4D38C /* TelegramShare.appex */;
+			productReference = C232EA911E1D07E700C4D38C /* greschagramShare.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
-		D098C7141D7E175A007784E4 /* Telegram */ = {
+		D098C7141D7E175A007784E4 /* greschagram */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D098C7221D7E175A007784E4 /* Build configuration list for PBXNativeTarget "Telegram" */;
+			buildConfigurationList = D098C7221D7E175A007784E4 /* Build configuration list for PBXNativeTarget "greschagram" */;
 			buildPhases = (
 				C20D5AB61DAA94500042616A /* Copy Files */,
 				D098C7121D7E175A007784E4 /* Frameworks */,
 				D098C7111D7E175A007784E4 /* Sources */,
 				D098C7131D7E175A007784E4 /* Resources */,
-				C232EA661E1D041B00C4D38C /* Embed App Extensions */,
+				C232EA661E1D041B00C4D38C /* Embed Foundation Extensions */,
 				C23D0D7B1F1A648600AF5151 /* Fonts */,
 				C2786FF51FEC128F001FB044 /* Palettes */,
 				C2D85FD51F25FE5400EDEA15 /* ShellScript */,
@@ -5744,7 +5738,7 @@
 			dependencies = (
 				2745FEC8274F943200546B05 /* PBXTargetDependency */,
 			);
-			name = Telegram;
+			name = greschagram;
 			packageProductDependencies = (
 				27F3B75327391E6B00B81F10 /* TelegramIconsTheme */,
 				27B6D04E27393A2A00C785C7 /* TelegramApi */,
@@ -5808,7 +5802,7 @@
 				2738A2D3289C41CE00EC1010 /* CurrencyFormat */,
 			);
 			productName = "Telegram-Mac";
-			productReference = D098C7151D7E175A007784E4 /* Telegram.app */;
+			productReference = D098C7151D7E175A007784E4 /* greschagram.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -5819,8 +5813,8 @@
 			attributes = {
 				DefaultBuildSystemTypeForWorkspace = Latest;
 				LastSwiftUpdateCheck = 1220;
-				LastUpgradeCheck = 1000;
-				ORGANIZATIONNAME = Telegram;
+				LastUpgradeCheck = 1410;
+				ORGANIZATIONNAME = greschagram;
 				TargetAttributes = {
 					C232EA901E1D07E700C4D38C = {
 						CreatedOnToolsVersion = 8.2;
@@ -5858,7 +5852,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D098C7101D7E175A007784E4 /* Build configuration list for PBXProject "Telegram" */;
+			buildConfigurationList = D098C7101D7E175A007784E4 /* Build configuration list for PBXProject "greschagram" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -5889,8 +5883,8 @@
 			);
 			projectRoot = "";
 			targets = (
-				D098C7141D7E175A007784E4 /* Telegram */,
-				C232EA901E1D07E700C4D38C /* TelegramShare */,
+				D098C7141D7E175A007784E4 /* greschagram */,
+				C232EA901E1D07E700C4D38C /* greschagramShare */,
 			);
 		};
 /* End PBXProject section */
@@ -7133,7 +7127,7 @@
 /* Begin PBXTargetDependency section */
 		2745FEC8274F943200546B05 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C232EA901E1D07E700C4D38C /* TelegramShare */;
+			target = C232EA901E1D07E700C4D38C /* greschagramShare */;
 			targetProxy = 2745FEC7274F943200546B05 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -7210,21 +7204,31 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "-";
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -7259,12 +7263,12 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = NO;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_ENTITLEMENTS = "Telegram-Mac/Telegram-Sandbox.entitlements";
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 220805;
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_TEAM = N8RBWJ5X6J;
+				DEVELOPMENT_TEAM = BD2TPDQG5D;
 				ENABLE_BITCODE = NO;
 				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -7283,6 +7287,7 @@
 				HEADERMAP_USES_VFS = YES;
 				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/submodules/libtgvoip";
 				INFOPLIST_FILE = "Telegram-Mac/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = greschagram;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -7297,13 +7302,13 @@
 					"$(PROJECT_DIR)/core-xprojects/openssl/build/openssl/lib",
 					"$(PROJECT_DIR)/core-xprojects/webrtc/build/webrtc",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
 				MARKETING_VERSION = 9.1;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CODE_SIGN_FLAGS = "";
 				OTHER_LDFLAGS = "-ObjC";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = ru.keepcoder.Telegram;
+				PRODUCT_BUNDLE_IDENTIFIER = io.gresch.greschagram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = PRODUCTION;
@@ -7326,6 +7331,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 209499;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = 6N38VWS5BX;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -7368,9 +7374,10 @@
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
 				CODE_SIGN_ENTITLEMENTS = TelegramShare/TelegramShare.entitlements;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 209499;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = N8RBWJ5X6J;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -7416,24 +7423,35 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "-";
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
@@ -7472,7 +7490,7 @@
 				CURRENT_PROJECT_VERSION = 220805;
 				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = 6N38VWS5BX;
+				DEVELOPMENT_TEAM = BD2TPDQG5D;
 				ENABLE_BITCODE = NO;
 				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -7491,6 +7509,7 @@
 				HEADERMAP_USES_VFS = YES;
 				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/submodules/libtgvoip";
 				INFOPLIST_FILE = "Telegram-Mac/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = greschagram;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -7505,13 +7524,13 @@
 					"$(PROJECT_DIR)/core-xprojects/openssl/build/openssl/lib",
 					"$(PROJECT_DIR)/core-xprojects/webrtc/build/webrtc",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
 				MARKETING_VERSION = 9.1;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CODE_SIGN_FLAGS = "";
 				OTHER_LDFLAGS = "-ObjC";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = ru.keepcoder.Telegram;
+				PRODUCT_BUNDLE_IDENTIFIER = io.gresch.greschagram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -7528,7 +7547,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C232EAA01E1D07E700C4D38C /* Build configuration list for PBXNativeTarget "TelegramShare" */ = {
+		C232EAA01E1D07E700C4D38C /* Build configuration list for PBXNativeTarget "greschagramShare" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C232EAA21E1D07E700C4D38C /* Debug */,
@@ -7537,7 +7556,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		D098C7101D7E175A007784E4 /* Build configuration list for PBXProject "Telegram" */ = {
+		D098C7101D7E175A007784E4 /* Build configuration list for PBXProject "greschagram" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D098C7211D7E175A007784E4 /* Debug */,
@@ -7546,7 +7565,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		D098C7221D7E175A007784E4 /* Build configuration list for PBXNativeTarget "Telegram" */ = {
+		D098C7221D7E175A007784E4 /* Build configuration list for PBXNativeTarget "greschagram" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D098C7241D7E175A007784E4 /* Debug */,

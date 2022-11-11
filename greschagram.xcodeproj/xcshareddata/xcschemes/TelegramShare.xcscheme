@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1310"
+   LastUpgradeVersion = "1410"
    wasCreatedForAppExtension = "YES"
    version = "2.0">
    <BuildAction
@@ -16,9 +16,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C232EA901E1D07E700C4D38C"
-               BuildableName = "TelegramShare.appex"
-               BlueprintName = "TelegramShare"
-               ReferencedContainer = "container:Telegram.xcodeproj">
+               BuildableName = "greschagramShare.appex"
+               BlueprintName = "greschagramShare"
+               ReferencedContainer = "container:greschagram.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -30,9 +30,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D098C7141D7E175A007784E4"
-               BuildableName = "Telegram.app"
-               BlueprintName = "Telegram"
-               ReferencedContainer = "container:Telegram.xcodeproj">
+               BuildableName = "greschagram.app"
+               BlueprintName = "greschagram"
+               ReferencedContainer = "container:greschagram.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -66,9 +66,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D098C7141D7E175A007784E4"
-            BuildableName = "Telegram.app"
-            BlueprintName = "Telegram"
-            ReferencedContainer = "container:Telegram.xcodeproj">
+            BuildableName = "greschagram.app"
+            BlueprintName = "greschagram"
+            ReferencedContainer = "container:greschagram.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </LaunchAction>
@@ -78,16 +78,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES"
-      askForAppToLaunch = "Yes"
       launchAutomaticallySubstyle = "2">
       <BuildableProductRunnable
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D098C7141D7E175A007784E4"
-            BuildableName = "Telegram.app"
-            BlueprintName = "Telegram"
-            ReferencedContainer = "container:Telegram.xcodeproj">
+            BuildableName = "greschagram.app"
+            BlueprintName = "greschagram"
+            ReferencedContainer = "container:greschagram.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
